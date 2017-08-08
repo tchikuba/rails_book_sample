@@ -2,10 +2,10 @@
 
 one:
   id: 1
-  title: MyString1
-  body: MyText1
+  title: 今日は終日休暇
+  body: 今日は仕事を休んで、公園で読書を楽しんだ。
 
 two:
   id: 2
-  title: MyString2
-  body: MyText2
+  title: 今日の天気
+  body: 今日は雨が振った後、虹が出ていて綺麗だった。
