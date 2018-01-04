@@ -12,8 +12,16 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :sex %>
-    <%= form.text_field :sex %>
+    <%= form.radio_button :sex, 1 %>男性
+    <%= form.radio_button :sex, 2 %>女性
+  </div>
+
+  <div class="field">
+    <%= form.check_box :active %>有効
+  </div>
+
+  <div class="field">
+    <%= form.select :sex, { '男性': 1, '女性': 2 } %>
   </div>
 
   <div class="actions">
